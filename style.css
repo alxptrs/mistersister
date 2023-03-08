@@ -1,0 +1,22 @@
+html{font-family: sans-serif;}
+
+body{margin: 0;}
+
+.poster{display: block; width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center;}
+
+.poster > img {width: 40vw;}
+
+.selected{text-decoration: underline; text-underline-offset: 4px;}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100vw;
+	height: 40px;
+	padding: 10px 20px 10px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 20px;
+}

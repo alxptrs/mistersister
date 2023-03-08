@@ -1,10 +1,12 @@
-html{font-family: sans-serif;}
+html{font-family: sans-serif; font-size: 12px; background-color: #A190AB}
 
 body{margin: 0;}
 
-.poster{display: block; width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center;}
+.info{position: fixed; top: 0px; width: calc(40vw - 100px); padding: 10px 20px 10px 20px;}
 
-.poster > img {width: 40vw;}
+.highlight {display: inline-block; padding: .5em; background: black; color: white;}
+
+.poster{display: block; width: 100vw; height: 100vh; display: flex; justify-content: right;}
 
 .selected{text-decoration: underline; text-underline-offset: 4px;}
 
